@@ -3,6 +3,7 @@
 </p>
 <h1 align="center">Web Game Word Scrambler</h1>
 This game was made by Muhammad Zahidin Nur using laravel mysql for test
+![License](https://img.shields.io/github/license/zahidin/word-scrambler?style=flat-square)
 
 ## Feature
 
