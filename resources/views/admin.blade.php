@@ -7,7 +7,7 @@
             <div class="bg-primary p-3 rounded text-white">
                 <button class="primary btn-create-word font-weight-bold">Create Word</button>
                 <div id="notif-success" hidden class="alert alert-success mt-3" role="alert">
-                    <h4 class="alert-heading">Correct Answer!</h4>
+                    <h4 class="alert-heading">Create Word Success</h4>
                     <h5 class="mb-0">The word you got <b class="new-word"></b></h5>
                 </div>
             </div>
