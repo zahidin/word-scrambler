@@ -55,4 +55,4 @@ php artisan serve
 
 ## Stay in touch
 
--   Author - [Muhammad Zahidin Nur](https://linkedin.com/muhammad-zahidin-nur-67b868159)
+-   Author - [Muhammad Zahidin Nur](https://www.linkedin.com/in/muhammad-zahidin-nur-67b868159/)
