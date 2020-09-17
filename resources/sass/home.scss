@@ -1,0 +1,66 @@
+.body-home {
+    background-image: linear-gradient(to bottom, #ae2f92, #b857a1);
+    font-family: "Nunito";
+}
+.home {
+    .logo {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo > img {
+        height: 20rem;
+        width: 20rem;
+        animation: updown 2s ease infinite;
+    }
+
+    .start {
+        display: flex;
+        flex: 1;
+        align-items: center;
+        justify-content: center;
+    }
+    .start > button:hover {
+        transform: translateY(-5%);
+    }
+    .start > button.primary {
+        padding: 0.75rem;
+        text-transform: capitalize;
+        background-color: #ae2f92;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+        border-radius: 0.6rem;
+        border-bottom-color: #771473;
+        border-bottom-width: 0.35rem;
+        width: 15rem;
+    }
+    .start > button.dark {
+        padding: 0.75rem;
+        text-transform: capitalize;
+        background-color: #0e508a;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+        border-radius: 0.6rem;
+        border-bottom-color: #143d6a;
+        border-bottom-width: 0.35rem;
+        width: 15rem;
+    }
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-5%);
+    }
+
+    50% {
+        transform: translateY(5%);
+    }
+
+    100% {
+        transform: translateY(-5%);
+    }
+}

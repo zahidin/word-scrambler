@@ -1,0 +1,15 @@
+#admin {
+    button.primary {
+        padding: 0.75rem;
+        text-transform: capitalize;
+        background-color: $dark;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-color: transparent;
+        color: white;
+        border-radius: 0.6rem;
+        border-bottom-color: #ae2f92;
+        border-bottom-width: 0.35rem;
+        width: 100%;
+    }
+}

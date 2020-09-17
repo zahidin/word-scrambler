@@ -1,0 +1,25 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+@import "home";
+@import "gameplay";
+@import "admin";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+#app > nav {
+    font-weight: bold;
+    background-color: $primary !important;
+}
+
+.dropdown-menu > a:hover {
+    background-image: none;
+    background-color: $dark;
+}
+.dropdown-menu > a:focus {
+    background-image: none;
+    background-color: $dark;
+}

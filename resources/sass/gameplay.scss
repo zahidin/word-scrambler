@@ -1,0 +1,45 @@
+#gameplay {
+    section.card-play {
+        height: 10rem;
+        background-color: $primary;
+        width: 100%;
+        border-radius: 1rem;
+        font-size: 3rem;
+        margin-left:0rem;
+    }
+    section.caption {
+        color: white;
+        font-size: 2rem;
+    }
+    section.answer > div > div > button:hover {
+        transform: translateY(-5%);
+    }
+    section.answer > div > div > button.primary {
+        padding: 0.75rem;
+        text-transform: capitalize;
+        background-color: #ae2f92;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-color: transparent;
+        color: white;
+        border-radius: 0.6rem;
+        border-bottom-color: #ae2f92;
+        border-bottom-width: 0.35rem;
+        width: 15rem;
+    }
+    section.answer > div > div > button.dark {
+        padding: 0.75rem;
+        text-transform: capitalize;
+        background-color: #0e508a;
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: white;
+        border-radius: 0.6rem;
+        border-bottom-color: #143d6a;
+        border-bottom-width: 0.35rem;
+        width: 15rem;
+    }
+    section.answer > div.row {
+        margin-left: 0rem !important;
+    }
+}
